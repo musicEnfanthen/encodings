@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Vier Lieder</title>
+            <title type="subordinate" n="1">Skizzen</title>
+            <title type="subordinate" n="2" label="Opus number">op. 12</title>
+            <respStmt>
+               <persName role="composer">Anton Webern</persName>
+               <persName role="encoder" enddate="2020-01-03T22:14:18">Stefan Münnich</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <persName role="encoder">Stefan Münnich</persName>
+            </respStmt>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingdesc-0000000959996441">
+         <appInfo xml:id="appinfo-0000000615543976">
+            <application xml:id="application-0000001018877033" isodate="2020-01-03T15:27:22" version="2.4.0-dev-71ccc0e">
+               <name xml:id="name-0000000231692453">Verovio</name>
+               <p xml:id="p-0000000667205560">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mwfxirx">
+            <score xml:id="sqysafh">
+               <scoreDef xml:id="seu5ugs">
+                  <staffGrp xml:id="sbauznq">
+                     <staffDef xml:id="sadwte9" n="1" lines="5">
+                        <instrDef xml:id="ijld634" midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
+                     </staffDef>
+                     <staffGrp xml:id="s17nugp" bar.thru="true">
+                        <staffDef xml:id="siacyoi" n="2" lines="5"/>
+                        <staffDef xml:id="src1xeo" n="3" lines="5">
+                           <instrDef xml:id="i628rh3" midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
+                        </staffDef>
+                        <staffDef xml:id="sqeggyy" n="4" lines="5">
+                           <instrDef xml:id="idnhb0l" midi.channel="0" midi.instrnum="0" midi.volume="68.00%" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+					</scoreDef>
+               <section xml:id="sd6qt">
+                  <measure xml:id="m46xu92" n="1" label="10" right="invis">
+                     <mNum>10</mNum>
+                     <staff xml:id="sleyov5" n="1">
+                        <layer xml:id="l8grypp" n="1">
+                           <clef shape="G" line="2" enclose="brack"/>
+                           <beam xml:id="b5s5uz0">
+                              <note xml:id="nd7yr1p" dur="8" oct="5" pname="e" stem.dir="down" accid="f" />
+                              <note xml:id="nfnv1hs" dur="8" oct="5" pname="d" stem.dir="down" accid="f" />
+                           </beam>
+                           <note xml:id="nhf8b7m" dur="8" oct="4" pname="c" stem.dir="up" accid="f" />
+                           <note xml:id="nxmoc6p" dur="8" oct="3" pname="b" stem.dir="up" accid="f" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="sv9b4ji" n="2">
+                        <layer xml:id="lnrv0nv" n="1">
+                        </layer>
+                     </staff>
+                     <staff xml:id="sflmirw" n="3">
+                        <layer xml:id="lk8tpn9" n="1">
+                           <clef shape="G" line="2" enclose="brack"/>
+                           <tuplet xml:id="trhr0jb" num="3" numbase="2">
+                              <chord xml:id="cnr2bw5" dur="4" stem.dir="up">
+                                 <note xml:id="n5o7jnc" oct="4" pname="f" />
+                                 <note xml:id="n97lron" oct="4" pname="b" accid="f" />
+                              </chord>
+                              <chord xml:id="cmuinmj" dur="2" stem.dir="up">
+                                 <note xml:id="n3i8weo" oct="4" pname="e" accid="f" />
+                                 <note xml:id="nxsrc8p" oct="4" pname="a" accid="f" />
+                              </chord>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s3dom7b" n="4">
+                        <layer xml:id="lwlk3v9" n="1">
+                           <clef shape="F" line="4" enclose="brack"/>
+                           <chord xml:id="cq6b51p" dur="4" stem.dir="up">
+                              <note xml:id="n3111z8" oct="2" pname="a" />
+                              <note xml:id="n126tvp" oct="3" pname="f" accid="s" />
+                           </chord>
+                           <chord xml:id="chrldn2" dur="4" stem.dir="down">
+                              <note xml:id="nohx5tx" oct="2" pname="f" accid="n" />
+                              <note xml:id="nybzsbh" oct="3" pname="e" accid="n" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <slur xml:id="sroy8xx" staff="1" startid="nd7yr1p" endid="nfnv1hs" layer="1" />
+                     <tie xml:id="t9vm41w" staff="3" layer="1" startid="nxsrc8p" endid="nqedpg8"/>
+                     <tie xml:id="nybzsbh" staff="4" layer="1" startid="nybzsbh" endid="n9ws58q"/>
+                  </measure>
+                  <measure xml:id="mn9mles" n="2"  label="11" right="invis">
+                     <mNum>11</mNum>
+                     <staff xml:id="s1m1iml" n="1">
+                        <layer xml:id="ls85cn5" n="1">
+                           <note xml:id="ndnfgbu" dur="4" oct="4" pname="c" accid="n" stem.dir="up" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="sspdrkb" n="2">
+                        <layer xml:id="ls2d25r" n="1" />
+                     </staff>
+                     <staff xml:id="sf8v4dw" n="3">
+                        <layer xml:id="lxm6jfo" n="1">
+                           <tuplet xml:id="tbgije4" num="3" numbase="2" bracket.visible="false">
+                              <chord xml:id="cw2c4kc" dur="4" stem.dir="up">
+                                 <note xml:id="nqcncx9" oct="4" pname="e">
+                                    <accid accid="f" enclose="brack"/>
+                                 </note>
+                                 <note xml:id="nqedpg8" oct="4" pname="a" accid.ges="f" />
+                              </chord>
+                              <chord xml:id="cjwtnm5" dur="8" stem.dir="up">
+                                 <note xml:id="n2ts257" oct="4" pname="f" accid="s" />
+                                 <note xml:id="nsthrfz" oct="5" pname="d" accid.ges="n" />
+                              </chord>
+                           </tuplet>
+                           <rest xml:id="rj5rglq" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="s9jqyb5" n="4">
+                        <layer xml:id="lj51aqz" n="1">
+                           <chord xml:id="cugvkrf" dur="4" stem.dir="down">
+                              <note xml:id="n2vtdf" oct="2" pname="f" accid.ges="n" />
+                              <note xml:id="n9ws58q" oct="3" pname="e" accid.ges="n" />
+                           </chord>
+                           <rest xml:id="rwitp4w" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
